@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your Tesla drone incident story and energy bar experiences. Join our community of affected beach house owners and recipe innovators.">
+    <title>Submit Your Story - Energy Bar Chronicles: The Tesla Drone Incidents</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .drone-animation {
+            animation: fly 10s infinite;
+        }
+        @keyframes fly {
+            0% { transform: translateX(-100%) translateY(0); }
+            50% { transform: translateX(100%) translateY(-20px); }
+            100% { transform: translateX(-100%) translateY(0); }
+        }
+        .form-highlight:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-col md:flex-row justify-between items-center">
+                <a href="/generated-website-1734534671621/" class="text-2xl font-bold mb-4 md:mb-0">Energy Bar Chronicles</a>
+                <div class="space-x-6">
+                    <a href="/generated-website-1734534671621/recipes.html" class="hover:text-yellow-300">Recipes</a>
+                    <a href="/generated-website-1734534671621/tesla-incidents.html" class="hover:text-yellow-300">Tesla Drone Reports</a>
+                    <a href="/generated-website-1734534671621/beach-house-registry.html" class="hover:text-yellow-300">Affected Properties</a>
+                    <a href="/generated-website-1734534671621/submit-story.html" class="hover:text-yellow-300">Submit Your Story</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="max-w-2xl mx-auto">
+            <h1 class="text-3xl font-bold mb-6">Share Your Experience</h1>
+            
+            <form method="GET" action="/generated-website-1734534671621/submit-confirmation" class="bg-white rounded-lg shadow-md p-6 space-y-6">
+                <div>
+                    <label for="incident-type" class="block text-gray-700 font-medium mb-2">Incident Type</label>
+                    <select id="incident-type" name="type" class="w-full p-3 border rounded-lg form-highlight">
+                        <option value="drone-incident">Tesla Drone Incident</option>
+                        <option value="recipe-success">Energy Bar Recipe Success</option>
+                        <option value="property-damage">Beach House Damage Report</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="location" class="block text-gray-700 font-medium mb-2">Location</label>
+                    <input type="text" id="location" name="location" class="w-full p-3 border rounded-lg form-highlight" placeholder="e.g., Cape May, Beach Block">
+                </div>
+
+                <div>
+                    <label for="date" class="block text-gray-700 font-medium mb-2">Date of Incident</label>
+                    <input type="date" id="date" name="date" class="w-full p-3 border rounded-lg form-highlight">
+                </div>
+
+                <div>
+                    <label for="story" class="block text-gray-700 font-medium mb-2">Your Story</label>
+                    <textarea id="story" name="story" rows="6" class="w-full p-3 border rounded-lg form-highlight" placeholder="Please share your experience with Tesla drones or our protective energy bar recipes..."></textarea>
+                </div>
+
+                <div class="flex items-center space-x-2">
+                    <input type="checkbox" id="consent" name="consent" class="form-highlight">
+                    <label for="consent" class="text-sm text-gray-600">I consent to sharing my story on the Energy Bar Chronicles network</label>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Submit Your Story</button>
+            </form>
+
+            <div class="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+                <h2 class="text-xl font-bold mb-4">Recent Submissions</h2>
+                <div class="space-y-4">
+                    <a href="/generated-website-1734534671621/stories/ocean-city-incident.html" class="block hover:bg-yellow-100 p-3 rounded">
+                        <h3 class="text-lg font-medium">Ocean City Drone Swarm</h3>
+                        <p class="text-gray-600">Multiple drones confused by solar panel array...</p>
+                    </a>
+                    <a href="/generated-website-1734534671621/stories/quantum-success.html" class="block hover:bg-yellow-100 p-3 rounded">
+                        <h3 class="text-lg font-medium">Quantum Crunch Success Story</h3>
+                        <p class="text-gray-600">Zero drone incidents since implementing the recipe...</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2024 Energy Bar Chronicles</p>
+                <div class="space-x-4 mt-4 md:mt-0">
+                    <a href="/generated-website-1734534671621/about.html" class="hover:text-yellow-300">About</a>
+                    <a href="/generated-website-1734534671621/contact.html" class="hover:text-yellow-300">Contact</a>
+                    <a href="/generated-website-1734534671621/disclaimer.html" class="hover:text-yellow-300">Drone Disclaimer</a>
+                </div>
+                <p class="text-xs mt-4 md:mt-0">*No actual Tesla parts included in recipes</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
